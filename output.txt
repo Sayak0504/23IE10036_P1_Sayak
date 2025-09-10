@@ -1,0 +1,30 @@
+==================================================
+===== Initial Model Performance =====
+==================================================
+Mean Squared Error: 33635210.43
+R-squared: 0.7833
+Root Mean Squared Error (RMSE): $5799.59
+
+--- Initial Model Coefficients ---
+           Coefficient
+age         257.056264
+sex          18.791457
+bmi         335.781491
+children    425.091456
+smoker    23647.818096
+region      271.284266
+
+==================================================
+===== Refined Model Performance =====
+==================================================
+Mean Squared Error: 21049038.35
+R-squared: 0.8644
+Root Mean Squared Error (RMSE): $4587.92
+
+--- Refined Model Coefficients ---
+                  Coefficient
+age                264.566988
+smoker          -21536.358381
+region             183.063621
+bmi_smoker        1480.133702
+region_children    184.238345
